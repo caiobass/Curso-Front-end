@@ -1,0 +1,16 @@
+#exemplo1{
+
+    border: 5px solid #00f;
+    padding: 10px; /*espaçamento interno*/
+    margin: 10px; /*espaçamento externo*/
+}
+#exemplo2{
+    border: 5px solid #00FF00;
+    padding-left: 200px; /*espaçamento interno só do lado esquerdo*/
+    margin-top: 100px; /*espaçamento externo só encima */
+}
+#exemplo3{
+    border: 5px solid #000;
+    padding: 10px 20px 10px 50px; /*Cima, direita, baixo, esquerda */
+    margin: 20px 10px 10px 10px;
+}

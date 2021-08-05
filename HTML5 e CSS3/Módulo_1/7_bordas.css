@@ -1,0 +1,35 @@
+#sub1{
+
+    border: 5px solid #00F;
+}
+
+#sub2{
+    border: 5px dotted #00f;
+}
+
+#sub3{
+    border: 5px dashed #00f;
+}
+
+#sub4{
+    border: 5px double #00f;
+}
+
+#sub5{
+    border: 5px groove #00f;
+}
+
+#sub6{
+    border-bottom: 5px solid #00f;
+}
+#sub7{
+    border: 5px solid #00f;
+    border-radius: 10px;
+}
+div{
+    background-color: #00FF00;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 3px solid darkgreen;
+}

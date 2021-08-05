@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+a img{
+    height: 100px;
+    width: 100px;
+    margin: 100px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    margin: 100px;
+}
+#link{
+    color:green;
+    font-size:30px;
+
+}
+#link:hover{
+    color:red;
+    /* este comando é para alterar o efeito quando passar o mouse encima*/
+}
+#link:visited{
+    color: #ff00ff;
+    /* Deixa o link rosa quando o link já foi acessado*/
+}

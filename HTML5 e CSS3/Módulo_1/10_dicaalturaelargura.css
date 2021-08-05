@@ -1,0 +1,36 @@
+*#exemplo2{
+    box-sizing: border-box; /* content- box o tamanho do elemento é 
+    definido pelo conteúdo dele incluindo então border e padding.
+    temos também o border-box que ele subtrai do elemento no caso 
+    do exemplo nosso quadrado azul e subtrai a borda e o padding
+    para que o elemento não ultrapasse os 400px por 400px.*/
+}
+body{
+    margin:0px;
+}
+
+#exemplo1{
+    background-color: #00ff00;
+    width: 400px;
+    height: 400px;
+    border: 5px solid black;
+    padding: 10px;
+    margin:100px;
+
+    /*Basta inspecionar no navegador que você notara que o seu elemento 
+    não possui tamanho 400x400 e sim 430x430 pois ele aborda 400 do elemento
+    5+5 da borda e 10+10 do padding, a margem não entra pois ele é um
+    elemento externo*/
+}
+#exemplo2{
+    background-color: #0000ff;
+    width: 400px;
+    height: 400px;
+    border: 5px solid black;
+    padding: 10px;
+    margin:100px;
+
+    /*Basta inspecionar no navegador que você notara que o seu elemento 
+    vai possuir 400px por 400px graças ao comando borx-sizing: border-box*/
+
+}
