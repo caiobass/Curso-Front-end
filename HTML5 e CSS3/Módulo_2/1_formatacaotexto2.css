@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 10px;
+}
+p{
+    color: #f0f;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Helvetica, Arial; /*Caso não tenha a primeira fonte, usa-se a segunda*/
+    text-align: justify; /*Padrão é o left*/
+    
+}
+
+a{
+    text-decoration: none; /*Tira o _ dentre outras decorações do link*/
+}
+a:hover{
+    text-decoration: underline; /*Ao passar o mouse encima aparece o underline*/
+}

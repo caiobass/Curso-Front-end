@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 20px;
+}
+
+ul{
+    list-style-type: circle; /*Altera o icone antes da lista*/
+}
+
+ol{
+
+    list-style-type:upper-alpha; /*Altera a ordenação da lista*/
+    /*caso queira colocar direto no html um comando para começar
+    de um certo lugar bastar por <ol start="30"> */
+}

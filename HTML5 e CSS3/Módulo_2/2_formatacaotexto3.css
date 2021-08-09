@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 20px;
+}
+h1{
+    color: blue;
+    font-size: 40px;
+}
+p{
+    color: #f0f;
+    font-size: 20px;
+    font-family: Helvetica, Arial; /*Caso não tenha a primeira fonte, usa-se a segunda*/
+    text-align: justify; /*Padrão é o left*/
+    text-transform: uppercase; /*Maiusculo e lowercase para minusculo*/
+    letter-spacing: 0.5px; /*Espaçamento entre letras*/
+    word-spacing: 5px; /*Espaçamento entre palavras*/
+    line-height: 30px; /*Espaçamento entre as linhas*/
+    text-shadow: 0px 2px 3px blue; /*Direita, baixo, embaçamento, cor*/
+
+}
+
+h2{
+    font-size: 40px;
+    font-family: 'MonteCarlo', Arial;
+    color: blue;
+    /*Fonte tirada do google, basta entrar no google fonts
+    selecionar a fonte que queira usar, copiar o link e adicionar
+    no seu HTML */
+}
