@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 10px;
+}
+
+table{
+    width: 600px;
+}
+
+table thead{
+    background-color: lightgray;
+    /*Coloca cor no cabeçalho da tabela*/
+
+}
+table tbody{
+    background-color: whitesmoke;
+    /*Coloca cor do corpo da tabela */
+
+}
+th{
+    color: blue;
+    font-weight: normal;
+    /*Por padrão a fonte do cabeçalho vem em negrito, este comando
+    coloca a fonte noe seu estado normal*/
+}
+
+th, td{
+
+    padding: 10px;
+    text-align: left;
+    /*Espaçamento e alinhamento do texto para a esquerda*/
+}
+tbody tr:hover{
+    background-color: cadetblue;
+    /*Adiciona uma cor ao passar o mouse nas linhas, porem dentro do
+    body, e não na tabela toda ( ou seja menos no thead) */
+}
+
+tbody td{
+    border-bottom:1px solid black;
+}
+
+tbody tr:nth-child(even){
+    background-color: grey;
+    /*Linhas pares coloridas e impares não*/
+
+}
