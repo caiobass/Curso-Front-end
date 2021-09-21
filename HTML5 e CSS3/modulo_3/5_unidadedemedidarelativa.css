@@ -1,0 +1,91 @@
+body{
+    margin: 10px;
+}
+
+.box{
+    font-size: 20px;
+}
+.box-interno{
+    width: 15em;
+    height: 15em;
+    background-color: orange;
+}
+/**unidade "em" herda as caracteristicas do pai que no caso seria o box
+no nosso exemplo 1 em = 20px pq setamos o font-size do .box como 20px, 
+logo 1 em = 20px já que colocamos 15em = 300px. Se eu aumentar a font do box
+aumentara o tamanho do box-interno.**/
+/**Diferente do "em" o "rem" se baseia no primeiro ao primeiro box criado
+no nosso caso seria o HTML, tds seria baseados na fonte do HTML assim que setado
+então como padrão o HTML tem font-size de 16px, se eu colocar no box como 2rem logo
+ele tera o tamanho de 32px, 1 para 16 **/
+
+.box2{
+    width: 50%;
+    height: 400px;
+    background-color: #999;
+
+}
+
+.box-interno2{
+    width: 50%;
+    height: 50%;
+    background-color: #333;
+}
+
+/**Basicamente a box 2 por ser praticamente um conteiner, quando
+setada para 50% ela ocupara 50% da tela, já a box-interno2 por estar
+dentro da box2 ela ocupara 50% da box2, não 50% da tela.**/
+
+.box3{
+    width: 30ex;
+    background-color: brown;
+}
+
+/**A unidade de medida EX peca basicamente o tamanho da letra X (minusculo) da fonte
+utilizada e define o tamanho da dive de acordo com o tamanho da letra X**/
+
+body{
+    font-family: Courier;
+}
+.box4{
+    width: 300px;
+    background-color: brown;
+}
+
+.box-interno4{
+    background-color: crimson;
+    color: white;
+    width: 10ch;
+}
+
+/**A unidade de medida "ch" ocupa certinho o tamanho da fonte porem a fonte tem que ter
+todos os seus caracteres com o mesmo tamanho como por exemplo a fonte Courier
+(monospace)**/
+
+.box5{
+    background-color: rgb(141, 61, 108);
+    height: 100vh;
+    width: 100vw;
+}
+
+/**A unidade de medida "vh" e "vw" basea-se na tela inteira 
+muito bom para estruturas gerais na tela**/
+
+.box6{
+    font-size: 20px;
+    color:teal;
+    
+}
+h1{
+    font-size: 30px;
+    color: yellow;
+}
+
+.box h1{
+    font-size: inherit;
+    color: inherit;
+    /**Herda do box 6 o tamanho ou seja 20px**/
+    /**Herda a cor também **/
+}
+
+/**inherit basicamente herda a herença do item a cima no caso o box6 (força uma herança)**/

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Validações nativas</title>
+        <meta name="viewport" content ="wiedth=divice-width, initial-scale=1.0">
+        <link rel="stylesheet" href="13_validacoesnativas.css">
+    </head>
+    <body>
+        <h1> Tags Fieldset Legend e validações nativas</h1>
+        <form method="POST" action="toma.php">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label>
+                    Primeiro Nome:<br/>
+                    <input type="text" name="name" minlength="2"/>
+                    <!--REQUIRED torna o campo obrigatório-->
+                    <!--MINLENGTH Tamanho minho que o campo tem que ter-->
+                </label>
+            <br/>
+                <label>
+                    Sobrenome<br/>
+                    <input type="text" name="lastname"/>
+                </label>
+            <br/>
+                <label>
+                    Data de nascimento<br/>
+                    <input type="date" name="datebirsthdate" min="2021-09-20" max="1901-00-01"/>
+                    <!--STEP serve para aumentar de acordo com o valor selecionado
+                    Exemplo se eu colocar step="2" vai subir e descer de 2 em 2 -->
+                </label>
+                <br/>
+                <label>
+                    E-mail<br/>
+                    <input type="email" name="email" required pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9.]+$)" title="Preencha corretamente com texto @ texto . texto"/>
+                    <!--PATTERN serve para manter um padrão que você decide-->
+                    <!--title="endereço de e-mail" seria a explicação do que precisa ter no campo-->
+                </label>
+            </fieldset>
+            <br/>
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+                <label>
+                    Nome da empresa:<br/>
+                    <input type="text" name="companyname"/>
+                </label>
+            <br/>
+                <label>
+                    Cargo:<br/>
+                    <input type="text" name="jobtitle"/>
+                </label>
+            </fieldset>
+            <br/>
+            <br/>
+            <input type="submit" value="Cadastrar"/>
+
+        </form>
+
+    </body>
+</html>

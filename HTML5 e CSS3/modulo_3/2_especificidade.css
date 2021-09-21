@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+}
+.container{
+    color: #FF0000;
+}
+
+div{
+    color: green;
+}
+
+/**Teoricamente se fosse contar pela ordem, a div por ser colocado depois
+que o .container 1, ela se sobresairia e o escrito sairia verde, porem...
+Quanto mais especifico você for na hora de especificar o atributo recebe
+as caracteristicas do mais expecificos como por exemplo, o exemplo dado acima**/

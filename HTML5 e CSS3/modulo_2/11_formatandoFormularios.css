@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:50px;
+    font-size: 17px;
+}
+
+label{
+    display:block;
+    /**para colocar os labels um embaixo do outro para organizar**/
+    margin-top: 15px;
+}
+
+input[type=text], textarea, select{
+
+    margin-top: 5px;
+    padding: 5px;
+    width: 500px;
+    font-size: 15px;
+    border: 1px solid #CCC;
+    outline:0; /**Tira a borda de seleção imposta pelo chrome**/
+}
+
+textarea{
+    height: 200px;
+    resize:none; /**Tira a opção da pessoa alterar o tamanho do textarea**/
+}
+
+button{
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #CCC;
+    background-color: #EEE;
+}
+
+button:hover{
+    background-color: #DDD;
+
+}

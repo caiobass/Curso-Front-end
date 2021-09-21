@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    background-color: pink;
+}
+
+.container{
+    width: calc(100% - 20px);
+    height: 200px;
+    background-color: rgb(236, 95, 95);
+
+    color: #000;
+    font-size: 30px;
+    border: 3px solid orange;
+}
+.container strong{
+    color:orange;
+    border: 3px solid black;
+}

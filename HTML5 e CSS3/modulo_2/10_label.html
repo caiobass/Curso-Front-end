@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Label</title>
+    </head>
+    <body>
+        <h1>Como usar o label</h1>
+        <h2>Área de cadastro</h2>
+        <form action="5_login.html" method="GET">
+
+            <label for="nome">Nome completo: </label>
+            <br/>
+
+            <!--Quando colocamos o atributo for="nome"
+            e aderimos o input com id="nome", visualmente não muda nada
+            porem quando clicamos no label "Nome completo, o seletor auto
+            maticamente coloca nossa seleção no input text name"-->
+
+            <input type="text" name = "nome" id="nome"/>
+
+            <input type="submit" value="Cadastrar"/>
+
+            <br/>
+            <br/>
+            <input type="checkbox" id="teste"/>
+            <label for="teste">Essa é uma frase um pouco maior para vc entender a locomoção</label>
+                
+            <!--Outra forma abaixo mais viavel e melhor -->
+                <br/>
+                <br/>
+                <label>Nome completo:
+                    <br/>
+                    <input type="text" name = "nome"/>
+                </label>
+        </form>
+
+    </body>
+</html>

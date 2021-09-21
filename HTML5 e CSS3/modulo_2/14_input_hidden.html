@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Input Hidden</title>
+        <meta name="viewport" content ="wiedth=divice-width, initial-scale=1.0">
+        <link rel="stylesheet" href="13_validacoesnativas.css">
+    </head>
+    <body>
+        <h1> INPUT HIDDEN </h1>
+        <form method="GET" action="toma.php">
+            <input type="hidden" name="country" value="BR"/>
+            <!--type="hidden" campo que passa informação porem é escondido-->
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label>
+                    Primeiro Nome:<br/>
+                    <input type="text" name="name" minlength="2"/> 
+                </label>
+            <br/>
+                <label>
+                    Sobrenome<br/>
+                    <input type="text" name="lastname"/>
+                </label>
+            <br/>
+            </fieldset>
+            <br/>
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+                <label>
+                    Nome da empresa:<br/>
+                    <input type="text" name="companyname"/>
+                </label>
+            <br/>
+                <label>
+                    Cargo:<br/>
+                    <input type="text" name="jobtitle"/>
+                </label>
+            </fieldset>
+            <br/>
+            <br/>
+            <input type="submit" value="Cadastrar"/>
+
+        </form>
+
+    </body>
+</html>
